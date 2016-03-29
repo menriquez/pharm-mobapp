@@ -42,6 +42,7 @@ angular.module('pharm_mobapp.app.services', [])
             return dfd.promise;
         };
 
+
         this.getUserDetails = function(userId) {
 
             var dfd = $q.defer();
