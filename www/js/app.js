@@ -3,13 +3,13 @@ angular.module('underscore', [])
   return window._; // assumes underscore has already been loaded on the page
 });
 
-angular.module('your_app_name', [
+angular.module('pharm_mobapp', [
   'ionic',
-  'your_app_name.common.directives',
-  'your_app_name.app.controllers',
-  'your_app_name.auth.controllers',
-  'your_app_name.app.services',
-  'your_app_name.views',
+  'pharm_mobapp.common.directives',
+  'pharm_mobapp.app.controllers',
+  'pharm_mobapp.auth.controllers',
+  'pharm_mobapp.app.services',
+  'pharm_mobapp.views',
   'underscore',
   'angularMoment',
   'ngIOS9UIWebViewPatch'

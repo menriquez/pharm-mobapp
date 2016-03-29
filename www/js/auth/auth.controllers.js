@@ -1,4 +1,4 @@
-angular.module('your_app_name.auth.controllers', [])
+angular.module('pharm_mobapp.auth.controllers', [])
 
 .controller('AuthCtrl', function($scope){
 
@@ -30,6 +30,7 @@ angular.module('your_app_name.auth.controllers', [])
 	$ionicModal.fromTemplateUrl('views/app/legal/privacy-policy.html', {
     scope: $scope,
     animation: 'slide-in-up'
+    
   }).then(function(modal) {
     $scope.privacy_policy_modal = modal;
   });
@@ -45,7 +46,7 @@ angular.module('your_app_name.auth.controllers', [])
     $scope.privacy_policy_modal.show();
   };
 
-	$scope.showTerms = function() {
+  $scope.showTerms = function() {
     $scope.terms_of_service_modal.show();
   };
 })

@@ -1,4 +1,4 @@
-angular.module('your_app_name.common.directives', [])
+angular.module('pharm_mobapp.common.directives', [])
 
 .directive('multiBg', function(_){
 	return {

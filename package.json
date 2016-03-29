@@ -1,7 +1,7 @@
 {
-  "name": "ionTheme_2",
+  "name": "pharm-mobile-app",
   "version": "1.0.0",
-  "description": "ionTheme_2: An Ionic project",
+  "description": "pharm-mobile-app: A framework for mobile apps for PharmacyDemo.com/flashmediasolutions",
   "dependencies": {
     "async": "^1.4.0",
     "bower": "^1.3.3",
